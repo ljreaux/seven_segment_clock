@@ -71,8 +71,8 @@ body {
 .dot {
   width: 0.625rem;
   height: 0.625rem;
-  border-radius: 50%;
-  background-color: red;
+  border-radius: 25%;
+  background-color: #83f52c;
 }
 
 @media only screen and (max-width: 768px) {

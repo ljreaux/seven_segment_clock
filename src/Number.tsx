@@ -48,9 +48,9 @@ export default function Number({ displayNum }: { displayNum: number }) {
               left: `${left}rem`,
               top: `${top}rem`,
               backgroundColor: `${
-                displayMap[displayNum][index] ? "#ED3833" : "white"
+                displayMap[displayNum][index] ? "#83f52c" : "white"
               }`,
-              opacity: displayMap[displayNum][index] ? 1 : 0.15,
+              opacity: displayMap[displayNum][index] ? 1 : 0.1,
             }}
           ></div>
         );
@@ -69,9 +69,9 @@ export default function Number({ displayNum }: { displayNum: number }) {
               left: `${left}rem`,
               top: `${top}rem`,
               backgroundColor: `${
-                displayMap[displayNum][index] ? "#ED3833" : "white"
+                displayMap[displayNum][index] ? "#83f52c" : "white"
               }`,
-              opacity: displayMap[displayNum][index] ? 1 : 0.15,
+              opacity: displayMap[displayNum][index] ? 1 : 0.1,
             }}
           ></div>
         );
