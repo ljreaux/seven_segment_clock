@@ -29,7 +29,7 @@ const displayMap = [
   // H
   [false, true, true, true, true, false, true],
   // R
-  [true, true, true, true, true, false, true],
+  [false, false, true, false, false, false, true],
 ];
 
 export default function Number({ displayNum }: { displayNum: number }) {
