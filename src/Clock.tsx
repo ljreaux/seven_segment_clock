@@ -32,8 +32,8 @@ export default function Clock() {
         </div>
       )}
       <button onClick={() => setTwelveHourMode(!twelveHourMode)}>
-        <Number displayNum={twelveHourMode ? 2 : 1} />
-        <Number displayNum={twelveHourMode ? 4 : 2} />
+        <Number displayNum={!twelveHourMode ? 2 : 1} />
+        <Number displayNum={!twelveHourMode ? 4 : 2} />
         <Number displayNum={14} />
         <Number displayNum={15} />
       </button>
