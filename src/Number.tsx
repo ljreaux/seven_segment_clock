@@ -19,6 +19,17 @@ const displayMap = [
   [true, true, true, true, true, true, true],
   // 9
   [true, true, true, true, true, false, false],
+  // A
+  [true, true, true, true, true, false, true],
+  // P
+  [true, true, true, true, false, false, true],
+  // M
+  [true, true, false, true, false, false, true],
+  [true, true, false, true, true, false, false],
+  // H
+  [false, true, true, true, true, false, true],
+  // R
+  [true, true, true, true, true, false, true],
 ];
 
 export default function Number({ displayNum }: { displayNum: number }) {
