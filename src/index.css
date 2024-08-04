@@ -1,6 +1,6 @@
-/* :root {
-  font-size: 10px;
-} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   padding: 0;
@@ -66,6 +66,7 @@ body {
   display: grid;
   gap: 1.5rem;
   margin-top: 0.625rem;
+  margin-right: 2rem;
 }
 
 .dot {
@@ -109,5 +110,19 @@ button {
 @media only screen and (max-width: 500px) {
   :root {
     font-size: 8px;
+  }
+}
+
+@layer utilities {
+  .before-after-segment {
+    clip-path: polygon(
+      0 0.3125rem,
+      0.3125rem 0px,
+      0.625rem 0.3125rem,
+      0.625rem 2.8125rem,
+      0.3125rem 3.125rem,
+      0px 2.8125rem,
+      0 0.3125rem
+    );
   }
 }
